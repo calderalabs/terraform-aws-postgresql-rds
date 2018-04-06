@@ -22,7 +22,7 @@ variable "storage_type" {
   default = "gp2"
 }
 
-variable "vpc_id" {}
+variable "vpc_security_group_ids" {}
 
 variable "database_identifier" {}
 
