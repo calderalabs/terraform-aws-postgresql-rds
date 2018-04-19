@@ -117,3 +117,7 @@ variable "ok_actions" {
 variable "insufficient_data_actions" {
   type = "list"
 }
+
+variable "publicly_accessible" {
+  default = false
+}
