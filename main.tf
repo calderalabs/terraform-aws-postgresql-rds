@@ -33,6 +33,7 @@ resource "aws_db_instance" "postgresql" {
   db_subnet_group_name       = "${var.subnet_group}"
   parameter_group_name       = "${var.parameter_group}"
   storage_encrypted          = "${var.storage_encrypted}"
+  publicly_accessible        = "${var.publicly_accessible}"
 
   tags {
     Name        = "DatabaseServer"
